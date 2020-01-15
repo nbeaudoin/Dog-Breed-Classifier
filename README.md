@@ -1,5 +1,5 @@
 # Dog-Breed-Classifier
-CNN using PyTorch to classify dog breed
+Convoluational Neural Network using PyTorch to classify dog breeds
 
 The purpose of this project is to create a prediction-based algorithm that can detect a dog's breed. As part of the Udacity Nanodegree for Deep Learning, I will be using a Convolutional Neural Network (CNN) based on the VGG-16 algorithm that was developed and trained by Oxford's Visual Geometry Group for object recognition. This notebook will go through various steps, beginning with creating basic facial, human and dog detection functions that will be applied later in the project. I will then attempt to build a CNN from scratch using the knowledge gained in the Deep Learning Nanodegree. After training and testing my home-made CNN, I will use transfer learning to build upon the VGG-16 CNN arhitecture and increase the accuracy of my prediction using transfer learning based on VGG-16 arhitecture. Finally, the last layer of the VGG-16 will be trained and tested on the 133 dog breeds in the training dataset. The end result will be a dog prediction app that can tell if a human or dog image is present and make a classification for the top three dog breeds predicted with approriate confidence.
 
